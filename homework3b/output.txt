@@ -1,0 +1,461 @@
+Script started on Sun 16 Feb 2020 10:47:40 PM HST
+]0;leechase@uhx02:~[?1034huhx02:/home/l/leechase% ./homework3b
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b[8Pexit./homework3b debug
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b debug test
+Invalid command line arguments; exiting program.
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b debug test[K
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+1
+***********************DEBUG MODE************************
+Function: void getAddress
+Parameters: char name[]; int acctno: 80
+This program gets the mailing address from the user, the user can type multiple
+lines for their mailing address. In order for it to stop taking in input it asks
+the user to press the enter key twice in order to stop taking in input. Replaces
+the last input with a null character.
+*********************************************************
+
+Please type in the account address
+Press the enter key twice to finish
+
+
+No leading white spaces or empty names
+Please type in the account address
+Press the enter key twice to finish
+2712 nihi street
+this is an address
+heres another line
+
+***********************DEBUG MODE************************
+Function: void getName
+Parameters: char name[]; int array num: 25;
+An empty char array the size of the array is passed to the method. This method 
+gets the name from the user so that it can be used in the main and the methods that
+the main uses.
+*********************************************************
+
+Please enter the name of the account: - -
+No special characters are allowed, type in the name of the account again
+Please enter the name of the account: 
+No special characters are allowed, type in the name of the account again
+Please enter the name of the account: Chase Lee
+***********************DEBUG MODE************************
+Function: void getNumber
+Parameters: int * num 
+The memory address of the account number in the main is passed to this method to
+get the account number of the record from the user to be used in the main and
+the methods it calls.
+*********************************************************
+
+Please type in the account number: -23
+Account numbers must be positive
+Please type in the account number: 
+23
+***********************DEBUG MODE************************
+Function: int addRecord
+struct record ** precords; int acctno: 23; char name[ ]: Chase Lee
+; char address[ ]: 2712 nihi street
+this is an address
+heres another line
+
+
+This function is a stub, it will return 0, it also contains a debugmode
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+2
+***********************DEBUG MODE************************
+Function: void getNumber
+Parameters: int * num 
+The memory address of the account number in the main is passed to this method to
+get the account number of the record from the user to be used in the main and
+the methods it calls.
+*********************************************************
+
+Please type in the account number: -23
+Account numbers must be positive
+Please type in the account number: 123
+***********************DEBUG MODE************************
+Function: int printRecord
+struct record * records; int acctno: 123;
+This function is a stub, it will return 0, it also contains a debugmode
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+3
+***********************DEBUG MODE************************
+Function: void printAllRecords
+struct record * records
+This function is a stub, it will return 0, it also contains a debugmode
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+4
+***********************DEBUG MODE************************
+Function: void getAddress
+Parameters: char name[]; int acctno: 80
+This program gets the mailing address from the user, the user can type multiple
+lines for their mailing address. In order for it to stop taking in input it asks
+the user to press the enter key twice in order to stop taking in input. Replaces
+the last input with a null character.
+*********************************************************
+
+Please type in the account address
+Press the enter key twice to finish
+2712 nihi street
+
+No leading white spaces or empty names
+Please type in the account address
+Press the enter key twice to finish
+2712 nihi street
+this is an address
+
+***********************DEBUG MODE************************
+Function: void getNumber
+Parameters: int * num 
+The memory address of the account number in the main is passed to this method to
+get the account number of the record from the user to be used in the main and
+the methods it calls.
+*********************************************************
+
+Please type in the account number: -23
+Account numbers must be positive
+Please type in the account number: 2
+***********************DEBUG MODE************************
+
+Function: int modifyRecord
+struct record * records, int acctno: 2, char address [ ]: 2712 nihi street
+this is an address
+
+eres another line
+
+
+This function is a stub, it will return 0, it also contains a debugmode
+*********************************************************
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+5
+***********************DEBUG MODE************************
+Function: void getNumber
+Parameters: int * num 
+The memory address of the account number in the main is passed to this method to
+get the account number of the record from the user to be used in the main and
+the methods it calls.
+*********************************************************
+
+Please type in the account number: -23
+Account numbers must be positive
+Please type in the account number: 12321
+***********************DEBUG MODE************************
+Function: int deleteRecord
+struct record ** precords; int acctno
+This function is a stub, it will return 0, it also contains a debugmode
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~uhx02:/home/l/leechase% exit
+exit
+
+Script done on Sun 16 Feb 2020 10:50:21 PM HST
+d[0] == '\0')[47;9H{[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d7[3;48r8[48d[23S[1;50r[25;13Hprintf("No leading white spaces or empty names\n");[26;13Herror = 1;[27;13Hi = sizeof(arraynum);[28;9H}[29d	else[30d	{[31;13Herror = 0;[32;9H}[33;5H}while(error != 0);[34d}[36d/*****************************************************************[37d//[38d//  Function name: getName[39d//[40d//  DESCRIPTION:   Gets the name of a account holder[41d//[41;20HThis function sends a name back to the main[42d//[43d//  Parameters:    char name[], int array num; passed parameters is an empty char array[44d//[44;33Hand the int for the amount of chars in the array[45d//[46d//  Return values:  n/a[47d//[25d[A[A[24d[23;44H[1;95H(B[0;7mModified[23;43H(B[m )|)||) )a)d)[Zdd)[)])0])] )=)==) )[Z')[Z'')\')n')')[24d[25d[26d[27d[28d[29d[30d[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[A[A[A[A[A[A[A[A[A[A[A[A[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[A[A[A[A[A[A[A[A[A[11d[12d[11;36H[12;10H7[13;47r8[13dM[1;50r[13;1H       	    fflush(stdout);[48d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                            [49;1H Y(B[m Yes[K[50d(B[0;7m N(B[m No  [50;17H(B[0;7m^C(B[m Cancel[K[48;62H(B[0;7mFile Name to Write: user_interface.c                        [49d^G(B[m Get Help[49;27H(B[0;7mM-D(B[m DOS Format[49;53H(B[0;7mM-A(B[m Append[49;79H(B[0;7mM-B(B[m Backup File[50d(B[0;7m^C(B[m Cancel	          (B[0;7mM-M(B[m Mac Format[50;53H(B[0;7mM-P(B[m Prepend[48;37H[49d[39;49m(B[m[J[1;95H(B[0;7m        [48;42H(B[m[1K (B[0;7m[ Wrote 293 lines ](B[m[K[50;104H[50;1H[?1049l[?1l>]0;leechase@uhx02:~uhx02:/home/l/leechase% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -o homework3b user_interface.o database.o
+]0;leechase@uhx02:~uhx02:/home/l/leechase% clear
+[3;J[H[2J]0;leechase@uhx02:~uhx02:/home/l/leechase% script output.txt
+Script started, file is output.txt
+]0;leechase@uhx02:~[?1034huhx02:/home/l/leechase% ./homework3b
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b[8Pexit./homework3b debug
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b debug test
+Invalid command line arguments; exiting program.
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b debug test[K
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+1
+***********************DEBUG MODE************************
+Function: void getAddress
+Parameters: char name[]; int acctno: 80
+This program gets the mailing address from the user, the user can type multiple
+lines for their mailing address. In order for it to stop taking in input it asks
+the user to press the enter key twice in order to stop taking in input. Replaces
+the last input with a null character.
+*********************************************************
+
+Please type in the account address
+Press the enter key twice to finish
+
+
+No leading white spaces or empty names
+Please type in the account address
+Press the enter key twice to finish
+2712 nihi street
+this is an address
+heres another line
+
+***********************DEBUG MODE************************
+Function: void getName
+Parameters: char name[]; int array num: 25;
+An empty char array the size of the array is passed to the method. This method 
+gets the name from the user so that it can be used in the main and the methods that
+the main uses.
+*********************************************************
+
+Please enter the name of the account: - -
+No special characters are allowed, type in the name of the account again
+Please enter the name of the account: 
+No special characters are allowed, type in the name of the account again
+Please enter the name of the account: Chase Lee
+***********************DEBUG MODE************************
+Function: void getNumber
+Parameters: int * num 
+The memory address of the account number in the main is passed to this method to
+get the account number of the record from the user to be used in the main and
+the methods it calls.
+*********************************************************
+
+Please type in the account number: -23
+Account numbers must be positive
+Please type in the account number: 
+23
+***********************DEBUG MODE************************
+Function: int addRecord
+struct record ** precords; int acctno: 23; char name[ ]: Chase Lee
+; char address[ ]: 2712 nihi street
+this is an address
+heres another line
+
+
+This function is a stub, it will return 0, it also contains a debugmode
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, M                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                *****************************************************************[35d//[36d//  Function name: printMenu[37d//[38d//  DESCRIPTION:   A userinterface function[39d//[39;20HShows the user their function on the user interface[40d//[41d//  Parameters:    n/a[42d//[43d//  Return values:  n/a[44d//[45d****************************************************************/[46dvoid printMenu()[47d{[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d7[3;48r8[48d[23S[1;50r[25;9Hif(debugmode == 1)[26;9H{[27;13Hprintf("***********************DEBUG MODE************************\n");[28;13Hprintf("Function: void printMenu()\n");[29;13Hprintf("No parameters passed\n");[30;13Hprintf("Prints out 6 options for the user to choose from; Adding, Printing,\n");[31;13Hprintf("Printing All, Modifying, Deleting Records and exiting the program\n");[32;13Hprintf("*********************************************************\n\n");[33;9H}[35d	printf("Hello, Welcome to my Bank Database Application\n");[36;9Hprintf("Please type a number that corresponds with your choice.\n");[37;9Hprintf("1: Add Record\n");[38;9Hprintf("2: Print Record\n");[39;9Hprintf("3: Print All Records\n");[40;9Hprintf("4: Modify Record Address\n");[41;9Hprintf("5: Delete a Record\n");[42;9Hprintf("0: Exit Program\n");[43d}[45d/*****************************************************************[46d//[47d//  Function name: getAddress[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d7[2;48r8[48d[23S[1;50r[2;1H[K[25d//[26d//  DESCRIPTION:   Takes in input from the user[27d//[27;20HThis function sends the user's mailing address back to main[28d//[29d//  Parameters:    char add[], int arraynum; passed parameters is an empty[30d//[30;32Hchar array and the amount of characters in the char array[31d//[32d//  Return values:  n/a[33d//[34d****************************************************************/[35dvoid getAddress(char add[], int arraynum)[36d{[37;5Hint i;[38;5Hint error = 0;[39;5Hchar holdchar = '\0';[41;5Hif(debugmode == 1)[42;5H{[43d	printf("***********************DEBUG MODE************************\n");[44;9Hprintf("Function: void getAddress\n");[45;9Hprintf("Parameters: char name[]; int acctno: %d\n", arraynum);[46;9Hprintf("This program gets the mailing address from the user, the user can type multiple\n");[47;9Hprintf("lines for their mailing address. In order for it to stop taking in input it asks\n");[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d7[2;48r8[48d[23S[1;50r[2;1H[K[25;9Hprintf("the user to press the enter key twice in order to stop taking in input. Replaces\n");[26;9Hprintf("the last input with a null character.\n");[27;9Hprintf("*********************************************************\n\n");[28;5H}[30ddo[31d{[32d	printf("Please type in the account address\n");[33;9Hprintf("Press the enter key twice to finish\n");[34;9Hfor(i = 0; i<arraynum; i++)[35;9H{[36;13Hadd[i] = fgetc(stdin);[38;13Hif(add[i] == '\n' && holdchar == '\n' && i > 1)[39;13H{[40d	i = arraynum;[41;17Hadd[i] = '\0';[42;17Hadd[i-1] = '\0';[43;13H}[44dholdchar = add[i];[45;9H}[46d	if(add[0] == ' ' || add[0] == '\0')[47;9H{[25d[26d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d7[3;48r8[48d[23S[1;50r[25;13Hprintf("No leading white spaces or empty names\n");[26;13Herror = 1;[27;13Hi = sizeof(arraynum);[28;9H}[29d	else[30d	{[31;13Herror = 0;[32;9H}[33;5H}while(error != 0);[34d}[36d/*****************************************************************[37d//[38d//  Function name: getName[39d//[40d//  DESCRIPTION:   Gets the name of a account holder[41d//[41;20HThis function sends a name back to the main[42d//[43d//  Parameters:    char name[], int array num; passed parameters is an empty char array[44d//[44;33Hand the int for the amount of chars in the array[45d//[46d//  Return values:  n/a[47d//[25d[A[A[24d[23;44H[1;95H(B[0;7mModified[23;43H(B[m )|)||) )a)d)[Zdd)[)])0])] )=)==) )[Z')[Z'')\')n')')[24d[25d[26d[27d[28d[29d[30d[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[A[A[A[A[A[A[A[A[A[A[A[A[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[A[A[A[A[A[A[A[A[A[11d[12d[11;36H[12;10H7[13;47r8[13dM[1;50r[13;1H       	    fflush(stdout);[48d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                            [49;1H Y(B[m Yes[K[50d(B[0;7m N(B[m No  [50;17H(B[0;7m^C(B[m Cancel[K[48;62H(B[0;7mFile Name to Write: user_interface.c                        [49d^G(B[m Get Help[49;27H(B[0;7mM-D(B[m DOS Format[49;53H(B[0;7mM-A(B[m Append[49;79H(B[0;7mM-B(B[m Backup File[50d(B[0;7m^C(B[m Cancel	          (B[0;7mM-M(B[m Mac Format[50;53H(B[0;7mM-P(B[m Prepend[48;37H[49d[39;49m(B[m[J[1;95H(B[0;7m        [48;42H(B[m[1K (B[0;7m[ Wrote 293 lines ](B[m[K[50;104H[50;1H[?1049l[?1l>]0;leechase@uhx02:~uhx02:/home/l/leechase% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -o homework3b user_interface.o database.o
+]0;leechase@uhx02:~uhx02:/home/l/leechase% clear
+[3;J[H[2J]0;leechase@uhx02:~uhx02:/home/l/leechase% script output.txt
+Script started, file is output.txt
+]0;leechase@uhx02:~[?1034huhx02:/home/l/leechase% ./homework3b
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b[8Pexit./homework3b debug
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b debug test
+Invalid command line arguments; exiting program.
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./homework3b debug test[K
+***********************DEBUG MODE************************
+Function: void printMenu()
+No parameters passed
+Prints out 6 options for the user to choose from; Adding, Printing,
+Printing All, Modifying, Deleting Records and exiting the program
+*********************************************************
+
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+1
+***********************DEBUG MODE************************
+Function: void getAddress
+Parameters: char name[]; int acctno: 80
+This program gets the mailing address from the user, the user can type multiple
+lines for their mailing address. In order for it to stop taking in input it asks
+the user to press the enter key twice in order to stop taking in input. Replaces
+the last input with a null character.
+*********************************************************
+
+Please type in the account address
+Press the enter key twice to finish
+
+
+No leading white spaces or empty names
+Please type in the account address
+Press the enter key twice to finish
+2712 nihi street
+this is an address
+heres another line
+
+***********************DEBUG MODE************************
+Function

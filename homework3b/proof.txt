@@ -1,0 +1,10 @@
+Script started on Sun 16 Feb 2020 10:40:20 PM HST
+]0;leechase@uhx02:~[?1034huhx02:/home/l/leechase% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -o homework3b user_interface.o database.o
+]0;leechase@uhx02:~uhx02:/home/l/leechase% make
+make: `homework3b' is up to date.
+]0;leechase@uhx02:~uhx02:/home/l/leechase% exit
+exit
+
+Script done on Sun 16 Feb 2020 10:40:26 PM HST

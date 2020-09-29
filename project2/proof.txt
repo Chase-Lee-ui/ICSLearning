@@ -1,0 +1,260 @@
+Script started on Mon 20 Apr 2020 09:09:20 PM HST
+]0;leechase@uhx02:~/git_projects[?1034huhx02:/home/l/leechase/git_projects% git checkout proj ect1
+Switched to branch 'project1'
+]0;leechase@uhx02:~/git_projectsuhx02:/home/l/leechase/git_projects% sh getreport.sh
+* 3c4995c [31m (project2) [32m2020-04-20 [34mChase Lee [mRemoving Copy Constructors
+* 8404c7f [31m [32m2020-04-20 [34mChase Lee [mCommitting files
+* 7821123 [31m [32m2020-04-20 [34mChase Lee [mRename files
+* c0bcdd6 [31m [32m2020-04-20 [34mChase Lee [mRename files
+* 5c5b955 [31m (HEAD, project1, master) [32m2020-04-20 [34mChase Lee [mProject 1 Files
+# On branch project1
+nothing to commit, working directory clean
+total 156
+drwxr-xr-x.  3 leechase uh  4096 Apr 20 21:09 .
+drwx-----x. 19 leechase uh  4096 Apr 20 20:52 ..
+-rw-r--r--.  1 leechase uh  8875 Apr 20 21:09 database.c
+-rw-r--r--.  1 leechase uh  5139 Apr 20 21:09 database.h
+-rw-r--r--.  1 leechase uh 20000 Apr 20 21:08 dllist.o
+-rw-r--r--.  1 leechase uh 12048 Apr 20 21:08 duser-interface.o
+-rw-r--r--.  1 leechase uh   164 Apr 20 20:54 getreport.sh
+drwxr-xr-x.  8 leechase uh   166 Apr 20 21:09 .git
+-rw-r--r--.  1 leechase uh    47 Apr 20 20:53 .gitignore
+-rw-r--r--.  1 leechase uh 10312 Apr 20 21:08 llist.o
+-rw-r--r--.  1 leechase uh   243 Apr 20 21:09 Makefile
+-rwxr-xr-x.  1 leechase uh 20176 Apr 20 21:08 project
+-rwxr-xr-x.  1 leechase uh 24320 Apr 20 21:08 project_debug
+-rw-r--r--.  1 leechase uh     0 Apr 20 21:09 proof.txt
+-rw-r--r--.  1 leechase uh   644 Apr 20 21:09 record.h
+-rw-r--r--.  1 leechase uh 10714 Apr 20 21:09 user_interface.c
+-rw-r--r--.  1 leechase uh  8680 Apr 20 21:08 user-interface.o
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project user_interface.o database.o
+]0;leechase@uhx02:~/git_projectsuhx02:/home/l/leechase/git_projects% ./project
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+3
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~/git_projectsuhx02:/home/l/leechase/git_projects% git checkout proj ect [K2
+Switched to branch 'project2'
+]0;leechase@uhx02:~/git_projectsuhx02:/home/l/leechase/git_projects% sh s[Kgetreport.sh
+* 3c4995c [31m (HEAD, project2) [32m2020-04-20 [34mChase Lee [mRemoving Copy Constructors
+* 8404c7f [31m [32m2020-04-20 [34mChase Lee [mCommitting files
+* 7821123 [31m [32m2020-04-20 [34mChase Lee [mRename files
+* c0bcdd6 [31m [32m2020-04-20 [34mChase Lee [mRename files
+* 5c5b955 [31m (project1, master) [32m2020-04-20 [34mChase Lee [mProject 1 Files
+# On branch project2
+nothing to commit, working directory clean
+total 124
+drwxr-xr-x.  3 leechase uh   261 Apr 20 21:09 .
+drwx-----x. 19 leechase uh  4096 Apr 20 20:52 ..
+-rw-r--r--.  1 leechase uh  9112 Apr 20 21:09 database.o
+-rw-r--r--.  1 leechase uh     0 Apr 20 21:09 database.txt
+-rw-r--r--.  1 leechase uh   164 Apr 20 20:54 getreport.sh
+drwxr-xr-x.  8 leechase uh   166 Apr 20 21:09 .git
+-rw-r--r--.  1 leechase uh    47 Apr 20 20:53 .gitignore
+-rw-r--r--.  1 leechase uh 18020 Apr 20 21:09 llist.cpp
+-rw-r--r--.  1 leechase uh  1074 Apr 20 21:09 llist.h
+-rw-r--r--.  1 leechase uh   464 Apr 20 21:09 Makefile
+-rwxr-xr-x.  1 leechase uh 17880 Apr 20 21:09 project
+-rwxr-xr-x.  1 leechase uh 24320 Apr 20 21:08 project_debug
+-rw-r--r--.  1 leechase uh     0 Apr 20 21:09 proof.txt
+-rw-r--r--.  1 leechase uh   578 Apr 20 21:09 record.h
+-rw-r--r--.  1 leechase uh  8426 Apr 20 21:09 user-interface.cpp
+-rw-r--r--.  1 leechase uh  9800 Apr 20 21:09 user_interface.o
+g++ -ansi -pedantic-errors -Wall -c user-interface.cpp
+g++ -o duser-interface.o -Ddebug -ansi -pedantic-errors -Wall -c user-interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o dllist.o -Ddebug -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project user-interface.o llist.o
+g++ -o project_debug duser-interface.o dllist.o
+]0;leechase@uhx02:~/git_projectsuhx02:/home/l/leechase/git_projects% ./project
+Hello, welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+6: Reverse
+0: Exit Program
+1
+Please type in the account number: 1
+Please type in the name of the account: a
+Please type in the account address
+Press the enter key twice once you're done
+a
+
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+6: Reverse
+0: Exit Program
+3
+Account Number: 1
+Name: a
+Address: a
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+6: Reverse
+0: Exit Program
+0
+Exiting Program....
+]0;leechase@uhx02:~/git_projectsuhx02:/home/l/leechase/git_projects% ./project_debug
+***********************DEBUG MODE************************
+Function: llist:llist()
+No actual parameters passed to this function
+This is a constructor function for the llist class
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: int llist::readfile()
+No paramters passed to this function
+This function reads a file named privately in the classes
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: int llist::addRecord(int uaccountno, char uname[], char uaddress[])
+int uaccountno: 1; char uname[ ]: a; char uaddress[ ]: a;
+This function adds a record to the linked list in the program
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: int main(int argc, char* argv[])
+int argc: 1char* argv[]
+This is the main function for the user to do input based on instruction
+*********************************************************
+
+Hello, welcome to my Bank Database Application
+***********************DEBUG MODE************************
+Function: void printmenu()
+No paramters passed to this function
+This function is the user-interface of the program
+*********************************************************
+
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+6: Reverse
+0: Exit Program
+1
+***********************DEBUG MODE************************
+Function: void getNumber(int * num)
+int * num
+This function gets the address from the user
+*********************************************************
+
+Please type in the account number: 2
+***********************DEBUG MODE************************
+Function: void getName(char name[], int arraynum)
+char name[]: int arraynum: 25
+This function gets the address from the user
+*********************************************************
+
+Please type in the name of the account: b
+***********************DEBUG MODE************************
+Function: void getAddress(char add[], int arraynum)
+char add[]: À¡Šd‹int arraynum: 80
+This function gets the address from the user
+*********************************************************
+
+Please type in the account address
+Press the enter key twice once you're done
+b
+
+***********************DEBUG MODE************************
+Function: int llist::addRecord(int uaccountno, char uname[], char uaddress[])
+int uaccountno: 2; char uname[ ]: b; char uaddress[ ]: b;
+This function adds a record to the linked list in the program
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: void printmenu()
+No paramters passed to this function
+This function is the user-interface of the program
+*********************************************************
+
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+6: Reverse
+0: Exit Program
+3
+***********************DEBUG MODE************************
+Function: operator<<(std::ostream& os, const llist& list)
+std::ostream& os, const llist& list
+This function overloads the << operator to print out all records in the linhked list
+*********************************************************
+
+Account Number: 1
+Name: a
+Address: a
+Account Number: 2
+Name: b
+Address: b
+***********************DEBUG MODE************************
+Function: void printmenu()
+No paramters passed to this function
+This function is the user-interface of the program
+*********************************************************
+
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+6: Reverse
+0: Exit Program
+0
+Exiting Program....
+***********************DEBUG MODE************************
+Function: llist:~llist()
+No actual parameters passed to this function
+This is a constructor function for the llist class
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: int llist::writefile()
+No paramters passed to this function
+This function writes to a file named privately in the classes
+*********************************************************
+
+***********************DEBUG MODE************************
+Function: int llist::cleanup()
+No paramters passed to this function
+This function cleans up the pointers used in the program
+*********************************************************
+
+]0;leechase@uhx02:~/git_projectsuhx02:/home/l/leechase/git_projects% exit
+exit
+
+Script done on Mon 20 Apr 2020 09:10:32 PM HST

@@ -1,0 +1,19 @@
+Summary
+
+	All requirements were met in that all functions and variables to be used in C++ have been used and
+are fully functional. Functions that were originally in C have now been converted to C++ and run under
+C++ standards. Additional functions like the reverse or overloading the << operator have been made and
+are implemented in the program. I had gone through my old testplan.xlsx and then made some additional
+test cases to be done in the C++ version of this program. I tested all of the old functions first to
+make sure that they are implemented correctly and then I tested the new function which was the reverse
+function. In addition, another test case that is not necessarily shown is
+the different constructors, if a filename is put in while calling the llist
+constructor it will read that file and store it.
+	There are two additional features in this program that was not instructed
+and that is the copy constructor and overloaded assignment operator, both of these
+functions do the same thing in that it copies the records stored in one linked list
+and puts it in a new linked list under new addresses.
+	Some future enhancements would be to add a graphical interface so that it is much more
+appealing to the eyes and easier to differentiate the records. Although we did not need to use both
+llist constructors, there could've been an option for the user to open a specific file that they want
+for their linked list. 

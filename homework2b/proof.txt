@@ -1,0 +1,24 @@
+Script started on Tue 04 Feb 2020 10:01:20 AM HST
+]0;leechase@uhx02:~[?1034huhx02:/home/l/leechase% exitgcc -o halfstring halfstring.oansi -pedantic-errors -Wall -c driver.chalfstring.ch
+]0;leechase@uhx02:~uhx02:/home/l/leechase% gcc -ansi -pedantic-errors -Wall -c halfstring.h[Kc
+]0;leechase@uhx02:~uhx02:/home/l/leechase% gcc -ansi -pedantic-errors -Wall -c halfstring.c[K[K[K[K[K[K[K[K[K[K[K[Kdriver.c
+]0;leechase@uhx02:~uhx02:/home/l/leechase% gcc -o driver drivv[Ker.o
+]0;leechase@uhx02:~uhx02:/home/l/leechase% ./driver
+howdy
+howdy
+
+hwy
+John Smith
+Jh mt
+Ravi Narayan
+Rv aaa
+Tetsuya Idota
+TtuaIoa
+
+
+     345
+   4
+]0;leechase@uhx02:~uhx02:/home/l/leechase% exit
+exit
+
+Script done on Tue 04 Feb 2020 10:01:52 AM HST

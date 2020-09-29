@@ -1,0 +1,50 @@
+Script started on Wed 18 Mar 2020 11:35:04 PM HST
+]0;leechase@uhx02:~/git_project[?1034huhx02:/home/l/leechase/git_project% bash getreport.sh
+* 1d714a1 [31m (HEAD, project1, master) [32m2020-03-18 [34mChase Lee [mAdd file of project
+* f7d11f2 [31m [32m2020-03-18 [34mChase Lee [mAdd files of project
+# On branch master
+nothing to commit, working directory clean
+total 472
+drwxr-xr-x.  3 leechase uh    259 Mar 18 23:32 .
+drwx-----x. 14 leechase uh   4096 Mar 18 23:14 ..
+-rw-------.  1 leechase uh 380928 Mar 18 23:24 core.60047
+-rw-r--r--.  1 leechase uh   8875 Mar 18 23:31 database.c
+-rw-r--r--.  1 leechase uh   5139 Mar 18 23:19 database.h
+-rw-r--r--.  1 leechase uh   9112 Mar 18 23:31 database.o
+-rw-r--r--.  1 leechase uh    164 Mar 17 21:27 getreport.sh
+drwxr-xr-x.  8 leechase uh    166 Mar 18 23:35 .git
+-rw-r--r--.  1 leechase uh     47 Mar 17 21:25 .gitignore
+-rw-r--r--.  1 leechase uh    243 Mar 18 23:19 Makefile
+-rwxr-xr-x.  1 leechase uh  17880 Mar 18 23:31 project
+-rw-r--r--.  1 leechase uh      0 Mar 18 23:35 proof.txt
+-rw-r--r--.  1 leechase uh    644 Mar 18 23:19 record.h
+-rw-r--r--.  1 leechase uh    687 Mar 18 23:19 summary.txt
+-rw-r--r--.  1 leechase uh  10714 Mar 18 23:19 user_interface.c
+-rw-r--r--.  1 leechase uh   9800 Mar 18 23:24 user_interface.o
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project user_interface.o database.o
+]0;leechase@uhx02:~/git_projectuhx02:/home/l/leechase/git_project% ./project
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+3
+Hello, Welcome to my Bank Database Application
+Please type a number that corresponds with your choice.
+1: Add Record
+2: Print Record
+3: Print All Records
+4: Modify Record Address
+5: Delete a Record
+0: Exit Program
+0
+Exiting Program.....
+]0;leechase@uhx02:~/git_projectuhx02:/home/l/leechase/git_project% exit
+exit
+
+Script done on Wed 18 Mar 2020 11:35:25 PM HST

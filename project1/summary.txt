@@ -1,0 +1,8 @@
+	The test cases that have passed are the ones that are highlighted in green in excel. This 
+shows that all the test cases have passed which means the program should work properly when any 
+user uses it. I believe that all cases in which there might be a problem, glitch or incorrect 
+input have been tested.
+	Some problems that I have faced was that the delete record was not working so after some
+fixing I got it to work the way I wanted it too but it had meant that I had to rerun the cases that
+used the delete record function. I also fixed some minor user interface problems that appeared as I
+was testing the test cases. Most of them did not affect the outcomes of the test cases. 

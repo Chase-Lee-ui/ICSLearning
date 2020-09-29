@@ -1,0 +1,12 @@
+Script started on Fri 08 May 2020 07:30:14 PM HST
+]0;leechase@uhx02:~/homework10[?1034huhx02:/home/l/leechase/homework10% make
+g++ -ansi -pedantic-errors -Wall -c homework10.cpp
+g++ -ansi -pedantic-errors -Wall -c Pokemon.cpp
+g++ -ansi -pedantic-errors -Wall -c Torterra.cpp
+g++ -ansi -pedantic-errors -Wall -c Mimikyu.cpp
+g++ -ansi -pedantic-errors -Wall -c Heracross.cpp
+g++ -o homework10 homework10.o Pokemon.o Torterra.o Mimikyu.o Heracross.o
+]0;leechase@uhx02:~/homework10uhx02:/home/l/leechase/homework10% exit
+exit
+
+Script done on Fri 08 May 2020 07:30:20 PM HST

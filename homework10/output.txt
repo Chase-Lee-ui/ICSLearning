@@ -1,0 +1,53 @@
+Script started on Fri 08 May 2020 07:30:44 PM HST
+]0;leechase@uhx02:~/homework10[?1034huhx02:/home/l/leechase/homework10% ./homework10
+<Pokemon> Constructor
+<Torterra> Constructor
+
+<Pokemon> Constructor
+<Mimikyu> Constructor
+
+<Pokemon> Constructor
+<Heracross> Constructor
+
+Opening the map container
+Heracross key, accessing matching pair in the map container
+Printing Heracross Data
+Pokemon type: Bug/Fighting
+Pokemon height: 59 inches
+
+Mimikyu key, accessing matching pair in the map container
+Printing Mimikyu Data
+Pokemon type: Ghost/Fairy
+Pokemon height: 20 inches
+
+Torterra key, accessing matching pair in the map container
+Printing Torterra Data
+Pokemon type: Grass/Ground
+Pokemon height: 87 inches
+
+Opening the vector container
+Printing Torterra Data
+Pokemon type: Grass/Ground
+Pokemon height: 87 inches
+
+Printing Mimikyu Data
+Pokemon type: Ghost/Fairy
+Pokemon height: 20 inches
+
+Printing Heracross Data
+Pokemon type: Bug/Fighting
+Pokemon height: 59 inches
+
+<Heracross> Deconstructor
+<Pokemon> Deconstructor
+
+<Mimikyu> Deconstructor
+<Pokemon> Deconstructor
+
+<Torterra> Deconstructor
+<Pokemon> Deconstructor
+
+]0;leechase@uhx02:~/homework10uhx02:/home/l/leechase/homework10% exit
+exit
+
+Script done on Fri 08 May 2020 07:30:51 PM HST

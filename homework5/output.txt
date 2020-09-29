@@ -1,0 +1,48 @@
+Script started on Tue 03 Mar 2020 11:44:40 PM HST
+]0;leechase@uhx02:~[?1034huhx02:/home/l/leechase% ./homework5
+**************************************************************************
+Case 0: File does not exist; Using readfile to find a file that does not exist
+Called readfile to find doesntexist.txt file, but it does not exist
+**************************************************************************
+Case 1: Nothing stored in bankone but calls the I/O Functions
+**************************************************************************
+Case 2: Filling in one account with 123, 'nami' and 'kalihi' in the respective fields
+Filling the first record with 0, 'no', and 'none'
+Reading the file
+Account 1 Account Number: 123
+Account 1 Name: nami
+Account 1 Address: kalihi
+**************************************************************************
+Case 3: Fully filling the records.
+Storing 123, cha, and add to the respective fields
+After every loop, 'newacctno' is increased, 'nam' gains an a and 'addres' gains a d
+Writing the data stored in bankone into a temporary file called hw4.txt
+Clearing the currently stored fields by making all account numbers 0, bankone name and address to a and b
+Reading the temporary file called hw4.txt
+_________________________________________________________________________
+Account 1 Account Number: 123
+Account 1 Name: cha
+Account 1 Address: add
+_________________________________________________________________________
+Account 2 Account Number: 124
+Account 2 Name: chaa
+Account 2 Address: addd
+_________________________________________________________________________
+Account 3 Account Number: 125
+Account 3 Name: chaaa
+Account 3 Address: adddd
+_________________________________________________________________________
+Account 4 Account Number: 126
+Account 4 Name: chaaaa
+Account 4 Address: addddd
+_________________________________________________________________________
+Account 5 Account Number: 127
+Account 5 Name: chaaaaa
+Account 5 Address: adddddd
+_________________________________________________________________________
+**************************************************************************
+Segmentation fault (core dumped)
+]0;leechase@uhx02:~uhx02:/home/l/leechase% exit
+exit
+
+Script done on Tue 03 Mar 2020 11:44:46 PM HST

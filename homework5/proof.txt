@@ -1,0 +1,8 @@
+Script started on Tue 03 Mar 2020 11:44:30 PM HST
+]0;leechase@uhx02:~[?1034huhx02:/home/l/leechase% make
+gcc -ansi -pedantic-errors -Wall -c iofunctions.c
+gcc -o homework5 driver.o iofunctions.o
+]0;leechase@uhx02:~uhx02:/home/l/leechase% eix[K[Kxit
+exit
+
+Script done on Tue 03 Mar 2020 11:44:35 PM HST
